@@ -12,7 +12,6 @@ import javax.validation.constraints.*;
 @NoArgsConstructor
 @AllArgsConstructor
 public class User {
-    @NotNull
     private Integer id;
     @NotEmpty
     @Size(max=10,min=3)
@@ -23,6 +22,4 @@ public class User {
     private String password;
     @Email
     private String email;
-
-
 }

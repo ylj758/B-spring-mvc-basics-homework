@@ -4,5 +4,6 @@ import lombok.Data;
 
 @Data
 public class CommentError {
-    private String error;
+    private String code;
+    private String message;
 }
